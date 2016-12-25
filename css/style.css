@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-    min-height:103px !important;
+    min-height:95px !important;
 }
 .navbar-inverse {
     background-color:#fff;
@@ -1308,23 +1308,24 @@ border-radius: 20px;
 .course i{
   margin-right:10px;  
 }
-.course p:hover{
-  color:#111c8f;  /*
-   -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;*/
+.course p{
+  margin-bottom: 0px;
 }
 .course h2{
-    background: #111c8f;
-    color: #fff;
+
+    font-weight: bold;
+    color: #111c8f;
     padding: 9px 3px;
 }
-.course h2:hover{
-  background:#ad3b04;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  
+h1.course{
+    font-weight: bold;
+    color: #111c8f;
+  margin-bottom: 0;
+  padding-top: 25px;
 }
 .course{
+  margin-bottom: 30;
+  padding-top: 0px;
  background:#f7f7f7;
 }
 
